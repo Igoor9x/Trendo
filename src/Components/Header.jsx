@@ -110,17 +110,18 @@ function Header() {
           <ul>
             <li>
               <button>
-                <a href="#"><FontAwesomeIcon icon={faHeart} /></a>
+                <Link onClick={scrollToTop} to= 'favoritos'><FontAwesomeIcon icon={faHeart} /></Link>
               </button>
             </li>
             <li>
               <button>
-                <a href="#"><FontAwesomeIcon icon={faCircleUser} /></a>
+                <Link onClick={scrollToTop} to= 'user'><FontAwesomeIcon icon={faCircleUser} /></Link>
               </button>
             </li>
             <li>
               <button>
-                <a href="#"><FontAwesomeIcon icon={faCartShopping} /></a>
+                <Link onClick={scrollToTop} to= 'carrinhoDeCompras'><FontAwesomeIcon icon={faCartShopping} /></Link>
+                <Link to= 'carrinhoDeCompras'><span className='numberCart'>{itensCart}</span></Link>
               </button>
             </li>
           </ul>
