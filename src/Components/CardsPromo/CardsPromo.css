@@ -1,0 +1,43 @@
+.cards{
+  display: flex;
+
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+  gap: 75px;
+  padding: 15px 15px;
+}
+.card{
+  justify-content: stretch;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  font-size: 40pt;
+  color: #0f66d8;
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+.card span{
+  color: #4d2528;
+  font-size: 14pt;
+  font-weight: 300;
+  margin-top: 35px;
+}
+.secondTextCard{
+  margin-top: 45px;
+  position: relative;
+  bottom: 15px;
+}
+@media (max-width:768px){
+  .cards{
+    flex-direction: column;
+    gap: 0;
+    padding: 2px 2px;
+  }
+  .card{
+    margin-top: 15px;
+    margin-bottom: 0;
+  }
+}

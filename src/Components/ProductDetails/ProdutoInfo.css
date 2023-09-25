@@ -1,0 +1,152 @@
+.containerProdutoDetail{
+  margin-top: 100px;
+  width: 98.9vw;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0px 30px;
+}
+.infoEsquerda{
+  width: 60vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.infoEsquerda img{
+  border-radius: 12px;
+  width: auto;
+  height: 70vh;
+}
+.infoDireita{
+  width: 30vw;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: stretch;
+  text-align: center;
+}
+.infoDireita h1{
+  font-size: 18pt;
+}
+.price{
+  position: relative;
+  top: 8px;
+  font-size: 18pt;
+}
+.imagesProd{
+  width: 100%;
+  display: flex;
+  padding: 0 20px;
+}
+.imagesProd img{
+  margin: 35px 0px;
+  width: 80px;
+  cursor: pointer;
+}
+.tamanho span, .quantidade span{
+  font-size: 14pt;
+}
+.buttonsSize{
+  margin: 20px 0;
+}
+.buttonsSize button{
+  border: 3px solid #3c3c3c;
+  margin: 5px 5px;
+  font-size: 14pt;
+  border-radius: 6px;
+  padding: 6px;
+  cursor: pointer;
+}
+.buttonsSize button:hover{
+  border: 3px solid #776d6d;
+}
+.buttons{
+  display: flex;
+}
+.quantidade{
+  display: flex;
+  flex-direction: column;
+  margin: 5px 0;
+}
+.quantidade button{
+  width: 35px;
+  font-size: 20pt;
+  background: #bebcbc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+.quantidade button:hover{
+  background: #707070;
+}
+.buttonsQnt{
+  margin: 15px 0;
+}
+.buttonsQnt button{
+  margin: 0px 8px;
+}
+.quantidade input{
+  padding: 2px 5px;
+  width: 6vw;
+  font-size: 16pt;
+  border-radius: 5px;
+  border: 2px solid #bebcbc;
+  text-align: center;
+}
+.addCart{
+  font-size: 14pt;
+  background-color: #424242;
+  border: 3px solid #424242;
+  padding: 12px;
+  border-radius: 30px;
+  color: #fff;
+  cursor: pointer;
+  transition: .3s;
+}
+.addCart:hover{
+  background-color: #0e0606;
+}
+@media(max-width: 768px){
+  .infoDireita h1{
+    font-size: 16pt;
+  }
+  .tamanho span, .quantidade span{
+    font-size: 14pt;
+  }
+  .buttonsSize{
+    margin: 10px 0;
+  }
+  .buttonsSize button{
+    margin: 3px 5px;
+    padding: 3px 5px;
+  }
+  .price{
+    font-size: 15pt;
+  }
+  .addCart{
+    padding: 8px;
+    font-size: 12pt;
+  }
+}
+@media(max-width: 675px){
+  .infoEsquerda{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .infoEsquerda img{
+    height: 40vh;
+  }
+  .infoDireita{
+    margin-top: 30px;
+    width: 100vw;
+  }
+  .infoDireita h1{
+    padding: 0 15px;
+  }
+}
+
+input[type=number]::-webkit-inner-spin-button { 
+  -webkit-appearance: none;
+}

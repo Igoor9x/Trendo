@@ -1,0 +1,342 @@
+{
+  "produtos": [
+    {
+      "id": 1,
+      "name": "Relógio Masculino de Luxo Onlivix",
+      "preco": 207.99,
+      "estoque": 10,
+      "sexo": "masculino",
+      "categoria": "acessorio",
+      "images": [
+        "https://ae01.alicdn.com/kf/S5ea18a1962cc483083105f811053be32T/Olevs-9931-novo-estilo-prova-dwaterproof-gua-homem-rel-gio-de-pulso-neg-cio-duplo-calend.jpg_.webp",
+        "https://ae01.alicdn.com/kf/S57cec777103f41b8aab0111ebed880dcC/Olevs-9931-novo-estilo-prova-dwaterproof-gua-homem-rel-gio-de-pulso-neg-cio-duplo-calend.jpg_640x640.jpg",
+        "https://ae01.alicdn.com/kf/S2831fc5d310644b3a05f669123223ddf6/Olevs-9931-novo-estilo-prova-dwaterproof-gua-homem-rel-gio-de-pulso-neg-cio-duplo-calend.jpg_640x640.jpg",
+        "https://ae01.alicdn.com/kf/S2586d34ba80a438e9205928bbbfd8621Z/Olevs-9931-novo-estilo-prova-dwaterproof-gua-homem-rel-gio-de-pulso-neg-cio-duplo-calend.jpg_640x640.jpg"
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Espanha Camisa Masculina 2023",
+      "preco": 159.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://images.tcdn.com.br/img/img_prod/498725/espanha_camisa_masculina_2023_uniforme_titular_13959_1_9d7cd8aeb8874a69c66a144ff098fa5a.jpg",
+        "https://images.tcdn.com.br/img/img_prod/498725/espanha_camisa_masculina_2023_uniforme_titular_13959_2_32f60707e3b405ea0c996c6029452882.jpg"
+      ]
+    },
+    {
+      "id": 3,
+      "name": "França Camisa Masculina 2023",
+      "preco": 159.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://images.tcdn.com.br/img/img_prod/498725/franca_camisa_masculina_2023_uniforme_titular_13813_1_59de73b271f27256de202309a9977fc1.png",
+        "https://images.tcdn.com.br/img/img_prod/498725/franca_camisa_masculina_2023_uniforme_titular_13813_2_5635e3f4861b25f853c379da394762dd.png"
+      ]
+    },
+    {
+      "id": 4,
+      "name": "Camisa seleção brasileira masculina amarelo",
+      "preco": 199.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://a-static.mlcdn.com.br/800x560/camisa-selecao-brasileira-original-masculina-amarelo-cbf-camiseta-brasil-copa-america-oficial/vidapeshop/aj5026c01p/48dc8e33ec5c3aef1f7502fc835824b5.jpeg",
+        "https://a-static.mlcdn.com.br/800x560/camisa-selecao-brasileira-original-masculina-amarelo-cbf-camiseta-brasil-copa-america-oficial/vidapeshop/aj5026c01p/abdf0640c92371eb978c9ee80b792f24.jpeg",
+        "https://a-static.mlcdn.com.br/800x560/camisa-selecao-brasileira-original-masculina-amarelo-cbf-camiseta-brasil-copa-america-oficial/vidapeshop/aj5026c01p/0606edac2824582bbea478efb72c9cf8.jpeg",
+        "https://a-static.mlcdn.com.br/800x560/camisa-selecao-brasileira-original-masculina-amarelo-cbf-camiseta-brasil-copa-america-oficial/vidapeshop/aj5026c01p/6faa550c78778f6854cc06c40148d400.jpeg"
+        
+      ]
+    },
+    {
+      "id": 5,
+      "name": "Camisa Brasil Copa do Mundo Masculina Torcedor Azul",
+      "preco": 139.90,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://acdn.mitiendanube.com/stores/001/409/577/products/camisa-reserva-da-selecao-brasileira-2022-nike-away-kit-2-azul-masculina-copa-do-mundo-qatar-neymar-onca-pintada-torcedor-brasil-hexa-tite-vinijr-11-b3bb0773f9b500d9d616611183097552-640-0.webp",
+        "https://acdn.mitiendanube.com/stores/001/409/577/products/camisa-reserva-da-selecao-brasileira-2022-nike-away-kit-2-azul-masculina-copa-do-mundo-qatar-neymar-onca-pintada-torcedor-brasil-hexa-tite-vinijr1-27af0e8d09e41b492716611183098449-640-0.webp"
+        
+      ]
+    },
+    {
+      "id": 6,
+      "name": "Camisa Adidas Flamengo II 2021",
+      "preco": 279.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://m.media-amazon.com/images/I/51H4hFk8FaL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/31w+SCcKv8L._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/41UX+UwgNdL._AC_SR38,50_.jpg",
+        "https://m.media-amazon.com/images/I/61sEiglvJzL._AC_SX522_.jpg"
+        
+      ]
+    },
+    {
+      "id": 7,
+      "name": "Camisa Adidas Flamengo I CR 2022 Masculino Vermelho e Preto",
+      "preco": 299.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://images.tcdn.com.br/img/img_prod/936492/camisa_clube_adidas_flamengo_i_2022_h18340_vermelho_preto_masculino_1933_1_a4f8171be68b6bb78e787b93f8b67fbb.jpg",
+        "https://images.tcdn.com.br/img/img_prod/936492/camisa_clube_adidas_flamengo_i_2022_h18340_vermelho_preto_masculino_1933_2_0cecb8f0e5ab783882968342dca23c06.jpg",
+        "https://images.tcdn.com.br/img/img_prod/936492/camisa_clube_adidas_flamengo_i_2022_h18340_vermelho_preto_masculino_1933_3_41f6a539808f6a0f9f847ae5b3c3415b.jpg"
+      ]
+    },
+    {
+      "id": 8,
+      "name": "CNSTORE Jaqueta puffer",
+      "preco": 34.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "jaquetas",
+      "images": [
+        "https://m.media-amazon.com/images/I/51HLU5AmUNL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/51ZC7iHBEKL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/51YRxPxPmHL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/51RCQwVyB0L._AC_SX522_.jpg"
+      ]
+    },
+    {
+      "id": 9,
+      "name": "Jaqueta Cargo Masculina Leve Casual de Algodão Casaco Milita",
+      "preco": 161.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "jaquetas",
+      "images": [
+        "https://m.media-amazon.com/images/I/81iJCfOO2SL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/81SE0fNg-fL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71F8nf1435L._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71p2rqmb6pL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/71s9fHVo8xL._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/51UIHs65a+L._AC_SX679_.jpg"
+      ]
+    },
+    {
+      "id": 10,
+      "name": " Jaqueta Masculina Casaco PU com zíper masculino Jaqueta bomber",
+      "preco": 307.00,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "jaquetas",
+      "images": [
+        "https://m.media-amazon.com/images/I/71RJGoNnyhL._AC_SX466_.jpg",
+        "https://m.media-amazon.com/images/I/719GbSAwfWL._AC_SX466_.jpg",
+        "https://m.media-amazon.com/images/I/71blrXsCe2L._AC_SX425_.jpg",
+        "https://m.media-amazon.com/images/I/711IMWBFC0L._AC_SX425_.jpg",
+        "https://m.media-amazon.com/images/I/617ioSkgbhL._AC_SX425_.jpg",
+        "https://m.media-amazon.com/images/I/71i5UzLi6KL._AC_SY550_.jpg"
+      ]
+    },
+    {
+      "id": 11,
+      "name": "Moletom Canguru Unissex Naruto Anime Shippuden Sorriso Geek",
+      "preco": 34.99,
+      "estoque": 50,
+      "sexo": "unissex",
+      "categoria": "moletom",
+      "images": [
+        "https://http2.mlstatic.com/D_NQ_NP_751449-MLB71273875315_082023-O.webp"
+      ]
+    },
+    {
+      "id": 12,
+      "name": "Moletom Masculino Canguru Slim 3 Cores",
+      "preco": 149.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "moletom",
+      "images": [
+        "https://m.media-amazon.com/images/I/81-ZPKhpJML._AC_SX425_.jpg",
+        "https://m.media-amazon.com/images/I/71t0kqA5laL._AC_SX466_.jpg"
+      ]
+    },
+    {
+      "id": 13,
+      "name": "ALDO Haysom, Preto",
+      "preco": 389.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "bolsas",
+      "images": [
+        "https://m.media-amazon.com/images/I/61BqBLNNJPL._AC_SY535_.jpg",
+        "https://m.media-amazon.com/images/I/61b+3koYCpL._AC_SY535_.jpg",
+        "https://m.media-amazon.com/images/I/71RwI9WXs-L._AC_SY535_.jpg"
+      ]
+    },
+    {
+      "id": 14,
+      "name": "Cropped de Moletom Feminino Barbie O Filme Flanelado Super Macio",
+      "preco": 59.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "casual",
+      "images": [
+        "https://m.media-amazon.com/images/I/51avGdzGY1L._AC_SX522_.jpg",
+        "https://m.media-amazon.com/images/I/41ieqbYEdpL._AC_SX522_.jpg"
+      ]
+    },
+    {
+      "id": 15,
+      "name": "Shoulder Bag Bolsa Transversal Pequena Holográfica",
+      "preco": 89.00,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "bolsas",
+      "images": [
+        "https://m.media-amazon.com/images/I/61pUQnlKEnL._AC_SY550_.jpg",
+        "https://m.media-amazon.com/images/I/61sEqcj46DL._AC_SY550_.jpg",
+        "https://m.media-amazon.com/images/I/61KDIMtku4L._AC_SY550_.jpg",
+        "https://m.media-amazon.com/images/I/71s6-Nvq0wL._AC_SY550_.jpg",
+        "https://m.media-amazon.com/images/I/61xNMQ43unL._AC_SY550_.jpg",
+        "https://m.media-amazon.com/images/I/610k8DcPRxL._AC_SY550_.jpg"
+      ]
+    },
+    {
+      "id": 16,
+      "name": "Camisa Nike Park Dri-Fit Masculina",
+      "preco": 79.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "esporte",
+      "images": [
+        "https://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/26/HZM-6253-026/HZM-6253-026_zoom1.jpg?ts=1644000266&ims=544x",
+        "https://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/26/HZM-6253-026/HZM-6253-026_zoom2.jpg?ts=1644000266&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/26/HZM-6253-026/HZM-6253-026_zoom2.jpg?ts=1644000266&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/28/HZM-6253-028/HZM-6253-028_zoom1.jpg?ts=1644000271&ims=544x",
+        "https://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/28/HZM-6253-028/HZM-6253-028_zoom2.jpg?ts=1671677464&?ims=544xhttps://static.netshoes.com.br/produtos/camisa-nike-park-dri-fit-masculina/28/HZM-6253-028/HZM-6253-028_zoom2.jpg?ts=1671677464&?ims=1088x"
+      ]
+    },
+    {
+      "id": 17,
+      "name": "Tênis Nike Air Max SC Masculino",
+      "preco": 439.99,
+      "estoque": 502,
+      "sexo": "masculino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom1.jpg?ts=1692028985&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom3.jpg?ts=1692028993&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom3.jpg?ts=1692028993&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom4.jpg?ts=1692028997&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom4.jpg?ts=1692028997&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom5.jpg?ts=1692029001&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom5.jpg?ts=1692029001&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom6.jpg?ts=1692029005&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-sc-masculino/14/JD8-4767-014/JD8-4767-014_zoom6.jpg?ts=1692029005&?ims=1088x"
+      ]
+    },
+    {
+      "id": 18,
+      "name": "Tênis NBA Nike Giannis Immortality 3 Masculino",
+      "preco": 569.99,
+      "estoque": 50,
+      "sexo": "masculino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/28/JD8-3946-028/JD8-3946-028_zoom1.jpg?ts=1692978704&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/28/JD8-3946-028/JD8-3946-028_zoom3.jpg?ts=1692978704&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/28/JD8-3946-028/JD8-3946-028_zoom3.jpg?ts=1692978704&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/28/JD8-3946-028/JD8-3946-028_zoom4.jpg?ts=1692978704&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/28/JD8-3946-028/JD8-3946-028_zoom4.jpg?ts=1692978704&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/74/JD8-3946-674/JD8-3946-674_zoom1.jpg?ts=1692994722&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/74/JD8-3946-674/JD8-3946-674_zoom3.jpg?ts=1692994723&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/74/JD8-3946-674/JD8-3946-674_zoom3.jpg?ts=1692994723&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/74/JD8-3946-674/JD8-3946-674_zoom4.jpg?ts=1692994722&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nba-nike-giannis-immortality-3-masculino/74/JD8-3946-674/JD8-3946-674_zoom4.jpg?ts=1692994722&?ims=1088x"
+      ]
+    },
+    {
+      "id": 19,
+      "name": "Tênis Nike Air Max INTRLK Lite Feminino",
+      "preco": 449.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom1.jpg?ts=1684181948&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom3.jpg?ts=1684181956&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom3.jpg?ts=1684181956&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom4.jpg?ts=1684181960&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom4.jpg?ts=1684181960&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/18/JD8-0470-018/JD8-0470-018_zoom1.jpg?ts=1684182465&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/18/JD8-0470-018/JD8-0470-018_zoom4.jpg?ts=1684182477&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/18/JD8-0470-018/JD8-0470-018_zoom4.jpg?ts=1684182477&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom2.jpg?ts=1684181952&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-intrlk-lite-feminino/14/2IC-8291-014/2IC-8291-014_zoom2.jpg?ts=1684181952&?ims=1088x"
+      ]
+    },
+    {
+      "id": 20,
+      "name": "Tênis Nike Air Max AP Feminino",
+      "preco": 599.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom1.jpg?ts=1684181477&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom3.jpg?ts=1684181485&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom3.jpg?ts=1684181485&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom4.jpg?ts=1684181489&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom4.jpg?ts=1684181489&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom5.jpg?ts=1684181492&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom5.jpg?ts=1684181492&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom6.jpg?ts=1684181496&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-air-max-ap-feminino/14/2IC-4243-014/2IC-4243-014_zoom6.jpg?ts=1684181496&?ims=1088x"
+      ]
+    },
+    {
+      "id": 21,
+      "name": "Tênis Nike Star Runner 4 Infantil",
+      "preco": 349.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis infantil",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom1.jpg?ts=1689696549&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom4.jpg?ts=1689696561&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom4.jpg?ts=1689696561&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom5.jpg?ts=1689696565&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom5.jpg?ts=1689696565&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom6.jpg?ts=1689696569&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-star-runner-4-infantil/14/JD8-4526-014/JD8-4526-014_zoom6.jpg?ts=1689696569&?ims=1088x"
+      ]
+    },
+    {
+      "id": 22,
+      "name": "Tênis Nike MC Trainer 2 Feminino",
+      "preco": 341.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom1.jpg?ts=1688064629&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom3.jpg?ts=1688064638&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom3.jpg?ts=1688064638&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom4.jpg?ts=1688064642&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom4.jpg?ts=1688064642&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom5.jpg?ts=1688064646&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom5.jpg?ts=1688064646&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom6.jpg?ts=1688064651&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-mc-trainer-2-feminino/98/JD8-4132-198/JD8-4132-198_zoom6.jpg?ts=1688064651&?ims=1088x"
+      ]
+    },
+    {
+      "id": 23,
+      "name": "Tênis Nike Court Vision Low Feminino",
+      "preco": 449.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom1.jpg?ts=1684375811&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom4.jpg?ts=1684375823&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom4.jpg?ts=1684375823&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom5.jpg?ts=1684375827&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom5.jpg?ts=1684375827&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom6.jpg?ts=1684375830&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-court-vision-low-feminino/14/JD8-3689-014/JD8-3689-014_zoom6.jpg?ts=1684375830&?ims=1088x"
+      ]
+    },
+    {
+      "id": 24,
+      "name": "Tênis Nike Flex Plus 2 Infantil",
+      "preco": 329.99,
+      "estoque": 50,
+      "sexo": "feminino",
+      "categoria": "tenis infantil",
+      "images": [
+        "https://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom1.jpg?ts=1689695165&ims=544x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom3.jpg?ts=1689695173&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom3.jpg?ts=1689695173&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom4.jpg?ts=1689695179&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom4.jpg?ts=1689695179&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom5.jpg?ts=1689695183&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom5.jpg?ts=1689695183&?ims=1088x",
+        "https://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom6.jpg?ts=1689695187&?ims=544xhttps://static.netshoes.com.br/produtos/tenis-nike-flex-plus-2-infantil/18/JD8-4488-018/JD8-4488-018_zoom6.jpg?ts=1689695187&?ims=1088x"
+      ]
+    }
+  ]
+}

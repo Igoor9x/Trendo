@@ -1,0 +1,27 @@
+.containerSlider{
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+
+}
+.containerSlider img{
+  width: 99vw;
+  height: 105vh;
+  object-fit: cover;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  }
+
+  @media(max-width: 1080px){
+    .containerSlider img{
+      width: 120vw;
+      height: 105vh;
+      }
+  }
+  @media(max-width: 320px){
+    .containerSlider img{
+      width: 190vw;
+      height: 100vh;
+      }
+  }

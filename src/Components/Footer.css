@@ -1,0 +1,104 @@
+.containerFooter{
+  margin-top: 30px;
+}
+.topicoPart1{
+  display: flex;
+  justify-content: center;
+  align-items:  stretch;
+  text-align: center;
+  background-color: #ebe5e5;
+}
+.card1, .card2, .card4{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items:  stretch;
+  text-align: center;
+  width: 22vw;
+  padding: 5px;
+  height: 40vh;
+  font-size: 14pt;
+}
+.card1 span, .card2 span,
+.card4 span{
+  margin: 15px 0px;
+  font-size: 12pt;
+  cursor: pointer;
+}
+.card1 span:hover, .card2 span:hover,
+.card4 span:hover{
+  color: #5a5a5a;
+}
+.card3{
+  padding: 5px;
+  font-size: 14pt;
+  width: 25vw;
+  height: 40vh;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:  stretch;
+  text-align: center;
+}
+.logoImage{
+  gap: 20px;
+  padding: 0 25px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items:  center;
+  text-align: center;
+  margin-top: 20px;
+}
+.card1{
+  margin-top: 20px;
+}
+.card3 img{
+  width: 45px;
+  height: auto;
+}
+.topicoPart2{
+  background-color: #205ba8;
+}
+.topicoPart2 p {
+  text-align: center;
+  color: #fff;
+  font-size: 12pt;
+  padding: 20px;
+  user-select: none;
+}
+@media (max-width:768px){
+  .topicoPart1{
+    flex-direction: column;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+  }
+  .card1, .card2,
+  .card3, .card4{
+    width: 96vw;
+    height: 30vh;
+  }
+  .card3{
+    padding: 5px; 
+    height: 30vh;
+    display: flex;
+    flex-direction: column;
+  
+  }
+  .logoImage{
+    width: 96vw;
+    padding: 0 15px;
+    display: flex;
+    gap: 0;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items:  center;
+    text-align: center;
+  }
+  .card3 img{
+    width: 55px;
+    height: auto;
+  }
+}
