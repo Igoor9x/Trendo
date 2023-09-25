@@ -1,22 +1,30 @@
 import React, {useState, useEffect} from 'react';
-import { Link } from 'react-router-dom';
+import { Link, useNavigate } from 'react-router-dom';
 import './Products.css'
 import produtoDB from './produto.json';
 
+
 function Products() {
-  
+  const navigate = useNavigate();
 const [produtos, setProdutos] = useState ([]);
+
+const navigateToProduct = (name) => {
+  // Obtenha o índice do produto com base no nome ou outro identificador único
+  const index = produtos.findIndex((produto) => produto.name === name);
+    navigate.push(`/produto/${name}?index=${index}`);
+};
 
 useEffect(() => {
   const produtosDB = produtoDB.produtos
   setProdutos(produtosDB);
 }, []);
+
   return (
     <div className='containerProduct' id='Produtos'>
         <h1>Produtos em destaque</h1>      
       <div className='listProduct'> 
         {produtos.map((produto, index) =>( 
-          <Link to={`/produto/${produto.name}`} key={index}>
+          <Link to={`/produto/${produto.name}`} key={index} onClick={() => navigateToProduct(produto.name)}>
 
             <div className='product' >
               <h2>{produto.name}</h2> 

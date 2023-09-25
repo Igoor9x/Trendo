@@ -48,8 +48,21 @@ a{
 }
 
 button{
+  position: relative;
   background-color: transparent;
   border: none;
+}
+.numberCart{
+  color: #3881e0;
+  position: absolute;
+  bottom: 12px;
+  left: 15px;
+  font-size: 11pt;
+  font-weight: 700;
+  padding: 0px;
+  border-radius: 50%;
+  width: 16px;
+  background-color: #3c3c3c;
 }
 a:hover{
   color: #f55562;

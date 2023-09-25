@@ -1,7 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import App from './App';
-
+import { CartProvider } from './Components/Cart/CartContext';
 import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 
 import Home from './Pages/Home';
@@ -29,7 +29,7 @@ const router = createBrowserRouter([
         element: <Produtos />,
       },
       {
-        path: 'produto/:id',
+        path: 'produto/:name',
         element: <ProdutoDetail />
       },
       {
@@ -60,7 +60,9 @@ const router = createBrowserRouter([
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
+    <CartProvider>
     <RouterProvider router={router} />
+    </CartProvider>
   </React.StrictMode>
 );
 

@@ -1,6 +1,7 @@
 import React, {useState, useEffect} from 'react';
 import produtoDB from '../Products/produto.json';
-import { useParams, useHistory } from 'react-router-dom';
+import { useParams } from 'react-router-dom';
+import { useCart } from '../Cart/CartContext';
 import './ProdutoInfo.css'
 
 import { Navigation, Pagination } from 'swiper/modules';
@@ -9,19 +10,27 @@ import 'swiper/swiper-bundle.css';
 import 'swiper/css';
 
 function ProdutoInfo() {
-  const {id} = useParams();
+  const {name} = useParams();
+  const {addToCart} = useCart();
   const [produto, setProduto] = useState (null);
   const [qntInput, setQntInput] = useState(1);
   const [indexImage, setIndexImage] = useState(0);
-  const [sizeSelect, setSizeSelect] = useState(null)
+  const [sizeSelect, setSizeSelect] = useState(null);
+  const [itensCart, setItensCart] = useState(0);
+  
 
 function confirmeCompra(){
-  alert(`Adicionado ao carrinho ${produto?.name} // No valor de R$${produto?.preco} // quantidade de: ${qntInput} // Tamanho selecionado: ${sizeSelect}`)
+  addToCart({
+    name: produto?.name,
+    preco: produto?.preco,
+    quantidade: qntInput,
+    tamanho: sizeSelect, 
+  });
+  setItensCart((prevCount) => prevCount + qntInput);
 }
 
   const buttonSizeClicked = (size) => {
     setSizeSelect(size);
-    console.log(sizeSelect);
   }
   
   const btn = {
@@ -31,8 +40,7 @@ function confirmeCompra(){
   };
   const buttonSelect = {
     ...btn,
-    backgroundColor: '#3c3c3c', // Define a cor de fundo para botões selecionados
-    color: 'white', // Define a cor do texto para botões selecionados
+    backgroundColor: '#3c3c3c', color: 'white',
   };
   
   const scrollToTop = () => {
@@ -54,12 +62,12 @@ function confirmeCompra(){
   }
 
   useEffect(() => {
-    const produtoDetail = produtoDB.produtos.find((produto) => produto.name === id );
+    const produtoDetail = produtoDB.produtos.find((produto) => produto.name === name );
     if (produtoDetail) {
      setProduto(produtoDetail);
    }
    scrollToTop();
- }, [id]);
+ }, [name]);
 
  useEffect(() => {
 
