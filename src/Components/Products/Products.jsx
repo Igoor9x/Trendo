@@ -2,6 +2,7 @@ import React, {useState, useEffect} from 'react';
 import { Link, useNavigate } from 'react-router-dom';
 import './Products.css'
 import produtoDB from './produto.json';
+import FormatCurrency from '../../utils/FormatCurrency';
 
 
 function Products() {
@@ -29,8 +30,8 @@ useEffect(() => {
             <div className='product' >
               <h2>{produto.name}</h2> 
               <img src={produto.images[0]} alt='camiseta'/>
-              <span>de R$ {produto.preco}</span>
-              <h2 className='price'>por R${produto.preco}</h2>
+              <span>de {FormatCurrency(produto.preco, 'BRL')}</span>
+              <h2 className='price'>por {FormatCurrency(produto.preco, 'BRL')}</h2>
             </div>
           </Link>
         ))}

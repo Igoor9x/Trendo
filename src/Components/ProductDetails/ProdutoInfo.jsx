@@ -8,6 +8,7 @@ import { Navigation, Pagination } from 'swiper/modules';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import 'swiper/swiper-bundle.css';
 import 'swiper/css';
+import FormatCurrency from '../../utils/FormatCurrency';
 
 function ProdutoInfo() {
   const {name} = useParams();
@@ -25,6 +26,7 @@ function confirmeCompra(){
     preco: produto?.preco,
     quantidade: qntInput,
     tamanho: sizeSelect, 
+    image: produto?.images[0]
   });
   setItensCart((prevCount) => prevCount + qntInput);
 }
@@ -82,7 +84,7 @@ function confirmeCompra(){
       <div className='infoDireita'>
        <form>
         <h1>{produto?.name}</h1>
-        <p className='price'>de R$ {produto?.preco}</p>
+        <p className='price'>de {FormatCurrency(produto?.preco, 'BRL')}</p>
         <p className='price'>ou até 12x no cartão</p>
         <div className='imagesProd'>
           <Swiper

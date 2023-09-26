@@ -145,6 +145,11 @@
   .infoDireita h1{
     padding: 0 15px;
   }
+  .quantidade input{
+    padding: 2px 0px;
+    width: 14vw;
+    font-size: 16pt;
+  }
 }
 
 input[type=number]::-webkit-inner-spin-button { 

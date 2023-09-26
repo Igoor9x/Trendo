@@ -94,34 +94,95 @@ function Header() {
       <div onClick={scrollToTop} className={`menu-mobile ${isMenuActived ? 'active' : ''} `}>
         <ul>
           <li>
-            <Link  to= '/'>Inicio</Link>
+            <Link  
+              onClick={() => {
+              scrollToTop(); // Chama a função scrollToTop
+              setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+              }}
+              to= '/'>Inicio
+            </Link>
           </li>
           <li>
-            <Link to= 'produtos'>Produtos</Link>
+            <Link 
+              onClick={() => {
+              scrollToTop(); // Chama a função scrollToTop
+              setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+              }}
+              to= 'produtos'>Produtos
+            </Link>
           </li>
           <li>
-            <Link to= 'nossaMarca'>Nossa marca</Link>
+            <Link 
+              onClick={() => {
+              scrollToTop(); // Chama a função scrollToTop
+              setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+              }}            
+              to= 'nossaMarca'>Nossa marca
+            </Link>
           </li>
           <li>
-            <Link to= 'contato'>Contato</Link>
+            <Link 
+              onClick={() => {
+              scrollToTop(); // Chama a função scrollToTop
+              setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+              }}
+              to= 'contato'>Contato
+            </Link>
           </li>
         </ul>
         <nav className="iconMobile">
           <ul>
             <li>
               <button>
-                <Link onClick={scrollToTop} to= 'favoritos'><FontAwesomeIcon icon={faHeart} /></Link>
+                <Link 
+                  onClick={() => {
+                  scrollToTop(); // Chama a função scrollToTop
+                  setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+                  }} 
+                  to= 'favoritos'
+                >
+                  <FontAwesomeIcon icon={faHeart} />
+                </Link>
               </button>
             </li>
             <li>
               <button>
-                <Link onClick={scrollToTop} to= 'user'><FontAwesomeIcon icon={faCircleUser} /></Link>
+                <Link
+                 onClick={() => {
+                  scrollToTop(); // Chama a função scrollToTop
+                  setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+                }}
+                  to= 'user'
+                >
+                  <FontAwesomeIcon icon={faCircleUser} />
+                </Link>
               </button>
             </li>
             <li>
               <button>
-                <Link onClick={scrollToTop} to= 'carrinhoDeCompras'><FontAwesomeIcon icon={faCartShopping} /></Link>
-                <Link to= 'carrinhoDeCompras'><span className='numberCart'>{itensCart}</span></Link>
+                <Link onClick={() => {
+                  scrollToTop(); // Chama a função scrollToTop
+                  setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+                  }}
+                  to= 'carrinhoDeCompras'
+                 >
+                  <FontAwesomeIcon icon={faCartShopping} />
+                </Link>
+                <Link onClick={() => {
+                  scrollToTop(); // Chama a função scrollToTop
+                  setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+                  }}
+                  to= 'carrinhoDeCompras'
+                >
+                <span 
+                  onClick={() => {
+                  scrollToTop(); // Chama a função scrollToTop
+                  setIsMenuActived(!isMenuActived); // Alterna o estado isMenuActived
+                  }} 
+                  className='numberCart'
+                >
+                  {itensCart}
+                </span></Link>
               </button>
             </li>
           </ul>

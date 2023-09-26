@@ -1,0 +1,36 @@
+.sobre{
+  display: flex;
+  flex-direction:column ;
+  text-align: center;
+  margin-top: 100px;
+  color: #3881e0;
+
+}
+.allContainer{
+  width: 100vw;
+  padding: 10px 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  text-align: start;
+}
+.esquerda{
+  width: 50vw; 
+}
+.esquerda img{
+  width: 600px;
+}
+.direita{
+  margin-top: 40px;
+  width: 50vw;
+  font-size: 12pt;
+}
+@media(max-width: 767px){
+  .esquerda{
+    display: none;
+  }
+  .direita{
+    width: 96vw;
+    margin-top: 10px;
+  }
+}
